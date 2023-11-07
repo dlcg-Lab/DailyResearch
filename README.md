@@ -23,6 +23,11 @@ After cloning the repository, you will need to set up your environment. Open `co
 
 To run the script, use the following command:
 
+CSS Styling
+We have applied a styling using CSS from a Gist by xiaolai. To include this styling:
+Download the CSS from xiaolai's gist.
+Save it as github.css in the root directory of the project.
+
 ```cmd
 python main.py "keyword1" "keyword2" --focus "focus1" "focus2" "focus3"
 ```
@@ -34,7 +39,7 @@ Replace `"keyword1" "keyword2"` with your targeted search keywords for papers, a
 The script generates two files in the `output` directory:
 
 1. A Markdown file (`YYYY-MM-DD-论文速报.md`) containing the digest of the papers.
-2. An HTML file (`YYYY-MM-DD-论文速报.html`) formatted with the included CSS file.
+2. An HTML file (`YYYY-MM-DD-论文速报.html`) formatted with the included CSS file(if in need).
 
 ## Contribution
 
