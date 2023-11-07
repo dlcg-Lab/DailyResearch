@@ -1,0 +1,288 @@
+<html><head><style>.markdown-here-wrapper {
+  font-size: 16px;
+  line-height: 1.8em;
+  letter-spacing: 0.1em;
+}
+
+
+pre, code {
+  font-size: 14px;
+  font-family: Roboto, 'Courier New', Consolas, Inconsolata, Courier, monospace;
+  margin: auto 5px;
+}
+
+code {
+  white-space: pre-wrap;
+  border-radius: 2px;
+  display: inline;
+}
+
+pre {
+  font-size: 15px;
+  line-height: 1.4em;
+  display: block; !important;
+}
+
+pre code {
+  white-space: pre;
+  overflow: auto;
+  border-radius: 3px;
+  padding: 1px 1px;
+  display: block !important;
+}
+
+strong, b{
+  color: #BF360C;
+}
+
+em, i {
+  color: #009688;
+}
+
+hr {
+  border: 1px solid #BF360C;
+  margin: 1.5em auto;
+}
+
+p {
+  margin: 1.5em 5px !important;
+}
+
+table, pre, dl, blockquote, q, ul, ol {
+  margin: 10px 5px;
+}
+
+ul, ol {
+  padding-left: 15px;
+}
+
+li {
+  margin: 10px;
+}
+
+li p {
+  margin: 10px 0 !important;
+}
+
+ul ul, ul ol, ol ul, ol ol {
+  margin: 0;
+  padding-left: 10px;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+dl {
+  padding: 0;
+}
+
+dl dt {
+  font-size: 1em;
+  font-weight: bold;
+  font-style: italic;
+}
+
+dl dd {
+  margin: 0 0 10px;
+  padding: 0 10px;
+}
+
+blockquote, q {
+  border-left: 2px solid #009688;
+  padding: 0 10px;
+  color: #777;
+  quotes: none;
+  margin-left: 1em;
+}
+
+blockquote::before, blockquote::after, q::before, q::after {
+  content: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 20px 0 10px;
+  padding: 0;
+  font-style: bold !important;
+  color: #009688 !important;
+  text-align: center !important;
+  margin: 1.5em 5px !important;
+  padding: 0.5em 1em !important;
+}
+
+h1 {
+  font-size: 24px !important;
+  border-bottom: 1px solid #ddd !important;
+}
+
+h2 {
+  font-size: 20px !important;
+  border-bottom: 1px solid #eee !important;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+
+table {
+  padding: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-size: 1em;
+  font: inherit;
+  border: 0;
+  margin: 0 auto;
+}
+
+tbody {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+table tr {
+  border: 0;
+  border-top: 1px solid #CCC;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+table tr:nth-child(2n) {
+  background-color: #F8F8F8;
+}
+
+table tr th, table tr td {
+  font-size: 16px;
+  border: 1px solid #CCC;
+  margin: 0;
+  padding: 5px 10px;
+}
+
+table tr th {
+  font-weight: bold;
+  color: #eee;
+  border: 1px solid #009688;
+  background-color: #009688;
+}</style></head><body><h1>今日CG&amp;DL论文速报</h1>
+<p>2023-11-07，今日关键词：Rendering</p>
+<p>在今天的计算机图形学和深度学习研究中，涉及到的主要内容包括：研究Tomonaga-Luttinger液体状态、提高复杂模型的计算效率、利用多视图RGB视频创建3D人体模型、制备非经典态大幅振荡器激发态、引入Multilingual视觉文本生成和编辑模型、研究关于物理系统重排的机械挫折、实验证明超薄氧化物半导体有良好的应用潜力、发展从单眼视频生成4D动态对象的新方法、提出了一种实际场景的多传感器混合房间数据集、利用端到端的系统捕获、模型重构和虚拟现实空间、提出了一种新型的基于触觉感知进行穿针引线的方法、开发了一种新的艺术重构方法、分析连续时间动态和离散时间噪声测量的状态估计、研究了降维优化光催化性能的方法以及提出了一种学习动态驾驶场景的空间-时间表示方法。以上内容的研究不仅为计算机图形学以及深度学习的发展提供了新的动力，也为相关领域的未来研究提供了新的方向。</p>
+<hr />
+<h3>Repulsive Tomonaga-Luttinger Liquid in Quasi-one-dimensional Alternating Spin-$1/2$ Antiferromagnet NaVOPO$_4$</h3>
+<p><strong>"准一维交替自旋-1/2反铁磁体NaVOPO4中的排斥Tomonaga-Luttinger液体"</strong>：我们探究了磁场诱导的在键交替的自旋-1/2反铁磁链化合物NaVOPO4中的Tomonaga-Luttinger液体状态。</p>
+<p><strong>论文摘要</strong>：</p>
+<blockquote>
+<p>在此研究中，我们针对键交替自旋-1/2反铁磁链化合物NaVOPO4探索了磁场诱导的Tomonaga-Luttinger液体（TLL）状态。我们通过使用温度及局部$\mu$SR和$^{31}$P NMR探测器，研究了在高达14T磁场下的毫开尔文温度。在无能隙TLL情况下，$\mu$SR和NMR弛豫率有着缓慢的衰减，遵循特性的幂律行为，使我们能够直接确定作为磁场函数的交互参数$K$。这些估计通过磁化和比热数据进行交叉检验。磁场依赖的$K$位于$0.4 &lt; K &lt; 1$的范围内，并表明无自旋费米子之间的相互作用具有排斥性质，这与理论预测一致。这使NaVOPO4成为至今为止研究的S=1/2键交替AFM-AFM链化合物中，具有排斥费米子相互作用的TLL的首个实验实现。</p>
+</blockquote>
+<hr />
+<h3>Homogenization of Foil Windings with Globally Supported Polynomial Shape Functions</h3>
+<p><strong>箔片绕组的全局支持多项式形状函数均质化</strong>：在传统的有限元模拟中，具有薄箔和大量圈数的箔片绕组需要很多网格元素，这使得模型计算难度增加。</p>
+<p><strong>论文摘要</strong>：</p>
+<blockquote>
+<p>在传统的有限元模拟中，用薄箔和大量圈数制成的箔片绕组需要很多网格元素。这使得模型的计算变得不现实。本文使用均质化的箔片绕组模型，并通过全局支持的多项式来近似箔片绕组域内的电压分布。这样，有限元网格就不需要解决箔片绕组域内的小尺度结构。该方法成功地验证了一个独立的箔片绕组样例和一个电位感应器样例。此外，还使用了一个场-电路耦合模型对装有箔片绕组的变压器进行了模拟。</p>
+</blockquote>
+<hr />
+<h3>Animating NeRFs from Texture Space: A Framework for Pose-Dependent Rendering of Human Performances</h3>
+<p><strong>从纹理空间动画化NeRFs：一个用于姿态依赖性渲染人类表演的框架</strong>：使用多视图RGB视频创建高质量可控3D人体模型的挑战</p>
+<p><strong>论文摘要</strong>：</p>
+<blockquote>
+<p>动画化NeRFs（神经辐射场）对于重构和自由视点渲染静态和动态场景已经展示出了显著的质量。对动态人体表演的可控合成的扩展，构成了一项令人兴奋的研究问题。在此篇文章中，我们引入了一种新的以NeRF为基础，用于渲染人体表演的取决于姿态的框架。在我们的方法中，辐射场绕着SMPL体网格进行弯曲，从而创造了一个新的与表面对齐的表示。我们的表示能够通过为NeRF提供的骨骼关节参数以及观点来进行动画化，以实现依赖于姿态的外观。为了实现这一点，我们的表示包括在网格纹理图上的相应的二维UV坐标以及查询点与网格之间的距离。为了在映射的歧义和随机视觉变异中实现高效的学习，我们引入了一个新的重映射过程，以提炼映射的坐标。实验证明，我们的方法可以用于新视图和新姿态的合成，产生高质量的渲染效果。</p>
+</blockquote>
+<hr />
+<h3>Proposal for Observing Nonclassicality in Highly Excited Mechanical Oscillators by Single Photon Detection</h3>
+<p><strong>观察高度振荡器单光子探测的非经典性的提议</strong>：提出了一种制备含有显著非经典态大幅振荡器激发态的方案。</p>
+<p><strong>论文摘要</strong>：</p>
+<blockquote>
+<p>目前实验努力的中心目标是制备具有高度宏观性的纯量子态。我们提出了一种状态准备协议，该协议使具有任意大相干幅度的机械振荡器处于明显的非经典状态。该协议依赖于相干态的准备，然后对单个喇曼散射光子进行投影测量，使其特别适合腔光力学。该状态的非经典性体现在泊松子音统计的次级性质上，该统计可以通过测量随后发射的喇曼侧带光子的统计来获得。提出的协议将有助于观察到相对于单音量级运动的机械振荡器的非经典性的宏观运动。</p>
+</blockquote>
+<hr />
+<h3>AnyText: Multilingual Visual Text Generation And Editing</h3>
+<p><strong>多语言视觉文本生成和编辑</strong>：引入AnyText，一种基于扩散的多语言视觉文本生成和编辑模型</p>
+<p><strong>论文摘要</strong>：</p>
+<blockquote>
+<p>AnyText是一个基于扩散的多语言视觉文本生成和编辑模型，专注于在生成的图像中渲染准确且连贯的文本。AnyText包括一个扩散流程，主要有两个元素：一个辅助的潜在模块和一个文本嵌入模块。前者使用像文本字形、位置和掩蔽图像这样的输入来生成文本生成或编辑的潜在特征。后者使用OCR模型用来编码笔画数据为嵌入，这些与来自分词器的图像标题嵌入相融合以生成无缝融入背景的文本。我们使用文本控制扩散损失和文本感知损失进行训练以进一步提高写作精确性。AnyText可以写多种语言的字符，据我们所知，这是第一项解决多语言视觉文本生成的工作。值得一提的是，AnyText可以插入社区中现有的扩散模型以准确地渲染或编辑文本。经过广泛的评估实验，我们的方法明显优于所有其他方法。此外，我们贡献了第一个大规模多语言文本图像数据集AnyWord-3M，其中包含300万个带有多种语言的OCR注释的图像-文本对。基于AnyWord-3M数据集，我们提出了AnyText-benchmark来评估视觉文本生成的精度和质量。我们的项目将在https://github.com/tyxsspa/AnyText上开源，以改进和推动文本生成技术的发展。</p>
+</blockquote>
+<hr />
+<h3>Self-Driven Configurational Dynamics in Frustrated Spring-Mass Systems</h3>
+<p><strong>自驱动配置动力学在受挫的弹簧-质量系统中</strong>：探讨了多种物理系统通过配置重排来缓解机械挫折。</p>
+<p><strong>论文摘要</strong>：</p>
+<blockquote>
+<p>各种物理系统通过配置重排来缓解机械挫折。我们通过简单的内部应力谐振4质量系统的哈密顿动力学来检查这种重排。我们理论和数值上展示了机械挫折如何控制潜在的势能景观。然后，我们检查谐振4质量系统的哈密顿动力学，并将混沌运动的开始与自驱动的重排联系起来。我们展示这种配置动力学可能在没有强烈前兆的情况下发生，使得这种动力学显得似乎是自发的。</p>
+</blockquote>
+<hr />
+<h3>Sub-5-nm Ultra-thin In$_2$O$_3$ Transistors for High-Performance and Low-Power Electronic Applications</h3>
+<p><strong>亚5纳米超薄In2O3晶体管用于高性能和低功耗电子应用</strong>：实验表示超薄氧化物半导体有良好的应用潜力</p>
+<p><strong>论文摘要</strong>：</p>
+<blockquote>
+<p>公认的超薄（UT）氧化物半导体是后端线路（BEOL）兼容晶体管和单片三维集成的有希望的候选者。实际上，超薄氧化铟 (In2O3) 场效应晶体管 (FETs) 系列的厚度降低到0.4 nm，极其大的漏电流（10000 μA/μm）和跨导（4000 μS/μm）。在这里，我们使用从头算量子输运模拟来探寻亚5纳米栅极长度 (Lg) 的 UT In2O3 FET 的性能极限。基于国际半导体技术路线图（ITRS）对于高性能（HP）设备的标准， UT In2O3 FET 可以达到2 nm 的精度，并提供漏电流、延迟时间和功耗等方面的优势。设备的宽带隙特性（3.15 eV）使 UT In2O3 成为 ITRS 低功耗（LP）电子设备的一个适合的候选者，Lg 降到3 nm。 HP 和 LP 的 UT In2O3 FETs 在比较于其它常见2D半导体如单层 MoS2 和 MoTe2 时，具有更佳的能源-延迟产品。我们的研究揭示了 UT In2O3 在 HP 和 LP 设备应用中的巨大潜力。</p>
+</blockquote>
+<hr />
+<h3>Consistent4D: Consistent 360° Dynamic Object Generation from Monocular Video</h3>
+<p><strong>一致性4D：从单眼视频生成一致的360°动态对象</strong>：本文介绍了一种从未校准的单眼视频生成4D动态对象的新方法——一致性4D。</p>
+<p><strong>论文摘要</strong>：</p>
+<blockquote>
+<p>在这篇论文中，我们提出了一种名为一致性4D的新方法，它能从未校准的单眼视频中生成4D动态对象。我们独特地将360度动态对象重建设定为一个4D生成问题，从而消除了需要繁琐的多视图数据收集和相机校准的需求。这是通过利用物体级3D感知图像扩散模型作为训练动态神经放射场(DyNeRF)的主要监督信号来实现的。具体来说，我们提出了一个级联DyNeRF以在时间轴上离散的监督信号下促进稳定的收敛和时间连续性。为了实现空间和时间的一致性，我们进一步引入了一个由插值驱动的一致性损失，通过最小化DyNeRF渲染的帧与预先训练的视频插值模型的插值帧之间的差异来优化它。大量的实验证明，我们的一致性4D不仅能与之前的方法竞争，并为从单眼视频生成4D动态对象开辟了新的可能性，同时也证明了对于传统的文本到3D生成任务有优势。我们的项目页面是https://consistent4d.github.io/。</p>
+</blockquote>
+<hr />
+<h3>MuSHRoom: Multi-Sensor Hybrid Room Dataset for Joint 3D Reconstruction and Novel View Synthesis</h3>
+<p><strong>MuSHRoom：用于联合3D重构和新视图合成的多传感器混合房间数据集</strong>：提出了一种面向现实世界的多传感器混合房间数据集。</p>
+<p><strong>论文摘要</strong>：</p>
+<blockquote>
+<p>元宇宙技术需要在消费级硬件上进行精确、实时和沉浸式建模，以应对无人机/机器人/自动驾驶汽车导航等非人类感知，以及AR/VR等沉浸式技术。这些都需要结构准确性和真实感。然而，如何在统一框架中应用几何重构和真实感建模（新视图合成）存在知识空白。
+为了解决这一问题，并推动使用消费级设备进行健壮和沉浸式建模和渲染的发展，首先，我们提出了一个面向现实世界的多传感器混合房间数据集（MuSHRoom）。我们的数据集提出了令人兴奋的挑战，并要求最新的方法在成本效益上，抗噪声数据和设备，并能共同学习3D重建和新视图合成，而不是将它们视为独立的任务，使他们非常适合实际应用。其次，我们在我们的数据集上对几个著名的流程进行了基准测试，以进行联合3D网格重建和新视图合成。最后，为了进一步提高整体性能，我们提出了一种在两项任务之间实现良好折衷的新方法。我们的数据集和基准显示出在推动融合3D重建和高质量渲染的改进方面具有巨大的潜力，以一种健壮和计算效率的端到端方式。</p>
+</blockquote>
+<hr />
+<h3>VR-NeRF: High-Fidelity Virtualized Walkable Spaces</h3>
+<p><strong>VR-NeRF：高保真的可虚拟漫游空间</strong>：我们提出一个端到端的系统，用于高保真捕获、模型重构和虚拟现实中的实时渲染可漫游空间。</p>
+<p><strong>论文摘要</strong>：</p>
+<blockquote>
+<p>我们提出了一个用于高度真实捕获、模型重构和虚拟现实中实时渲染可步行空间的端到端系统。为此，我们设计并制造了一个定制的多摄像头装置，用于高质量密集捕获可步行空间，并以前所未有的质量和密度进行多视角高动态范围图像拍摄。我们将一种新的感知色彩空间和一个高效的mip-mapping机制引入瞬时神经图形原语，用于学习准确的HDR外观和具有抗锯齿功能的细节级渲染，同时仔细优化质量和速度之间的权衡。我们的多GPU渲染器能在我们的定制演示机上以全VR的双2K × 2K的36 Hz的速度实现我们的神经辐射场模型的高保真体渲染。我们在我们具有挑战性的高保真数据集上展示了我们的结果质量，并将我们的方法和数据集与现有的基线进行对比。我们在我们的项目网站上发布了我们的数据集。</p>
+</blockquote>
+<hr />
+<h3>Electronic quantum wires in extended quasiparticle picture</h3>
+<p><strong>电子量子线在扩展准粒子图像中的表现</strong>：通过扩展准粒子图像和Born近似计算一维费米子量子线的基态性质。</p>
+<p><strong>论文摘要</strong>：</p>
+<blockquote>
+<p>文中考虑了一维费米子量子线，并在高密度区域内通过扩展的准粒子图像和Born近似来计算其基态特性。文中扩展了两粒子的Green函数以确定自能、极化以及响应函数。由于弹性散射的Pauli阻挡作用，贝壳上的自能严格为零，然而贝壳外的行为显示出一个激发阻尼的间隙结构，当动量接近费米动量时，该间隙关闭。文中载波和反载波产生的激励谱分裂产生了非费米液体的行为。通过减去一个能量常数的重整化程序，使得Fock交换能量有限。从平均场派生的有效质量显示出佩尔斯不稳定性的起始点。使用扩展的准粒子图像计算相关能，该图像考虑了贝壳外的效应。相应的响应函数导致与自能一致的相关能，与微扰理论一致。使用Padé正则化来修复微扰理论的缺陷，计算出了降低的密度矩阵或动量分布。通过这种方式，修复了在费米能量处似乎有限的步长，表明费米-液体行为。</p>
+</blockquote>
+<hr />
+<h3>Precise Robotic Needle-Threading with Tactile Perception and Reinforcement Learning</h3>
+<p><strong>精确的机器人针线穿插，结合触觉感知和强化学习</strong>：本文提出了一种新型的基于触觉感知的方法，用于执行穿针引线的任务</p>
+<p><strong>论文摘要</strong>：</p>
+<blockquote>
+<p>本项工作介绍了一种名为T-NT的新型基于触觉感知的方法，主要用于执行可变形线性对象（DLO）操作中的穿针引线任务。这项任务被划分为两个主要阶段：尾端寻找和尾端插入。在第一阶段，探测器通过搭载在抓取指上的基于视觉的触觉传感器，对线的轮廓进行两次轮廓追踪，以找到线的尾端。在第二阶段，该方法使用触觉引导的强化学习（RL）模型，驱动机器人将线插入到目标针孔中。RL模型是在基于Unity的仿真环境中训练的。仿真环境支持触觉渲染，能产生逼真的触觉图像和线建模。在插入过程中，通过预训练的分割模型，Grounded-SAM，获取针眼和线印迹的蒙版，从而得知穿插点的位置和针眼的中心位置。这些位置信息然后被提供给强化学习模型，帮助更顺利地过渡到实际应用中。我们对真实的机器人进行了大量实验，以证明我们方法的有效性。更多的实验和视频可以在补充材料中找到，也可以在网站https://sites.google.com/view/tac-needlethreading上查看。</p>
+</blockquote>
+<hr />
+<h3>Neural Collage Transfer: Artistic Reconstruction via Material Manipulation</h3>
+<p><strong>神经拼贴转移：通过材料操纵进行艺术重构</strong>：提出一种算法，利用强化学习制作拼贴画，无需演示或拼贴画数据</p>
+<p><strong>论文摘要</strong>：</p>
+<blockquote>
+<p>拼贴是一种创意艺术形式，它使用各种材料碎片作为基础单位来组成一个完整的图像。尽管像素生成技术可以用拼贴风格复制目标图像，但由于拼贴形式的实心笔画性质，这种方法并不合适。尽管以前对基于笔锋的渲染的一些工作产生了不错的素描和绘画效果，但是尽管拼贴作为一种风格非常流行，但在研究中却没有受到太多关注。在本文中，我们提出了一种学习制作拼贴的方法，通过强化学习，不需要演示或拼贴艺术品数据。我们设计了拼贴马尔可夫决策过程（MDP），它允许代理处理各种材料，并提出了一种基于模型的软演员-评论家以减轻代理从拼贴的复杂动态中产生的训练负担。此外，我们设计了一些额外的技术，如主动材料选择和基于复杂性的多尺度拼贴，以处理任何大小的目标图像，并通过在高复杂性区域放置更多的碎片来提高结果的美感。实验结果显示，训练有素的代理人适当地选择和粘贴材料，将目标图像再生成拼贴，并比像素生成方法获得了更高的内容和风格评价分数。代码可在https://github.com/northadventure/CollageRL上获取。</p>
+</blockquote>
+<hr />
+<h3>Optimization Based Data Enrichment Using Stochastic Dynamical System Models</h3>
+<p><strong>基于优化的随机动态系统模型数据增强</strong>：我们开发了一个用于噪声污染的连续时间动态和离散时间噪声测量系统的状态估计的通用框架。</p>
+<p><strong>论文摘要</strong>：</p>
+<blockquote>
+<p>我们研发了一种应用在被噪声污染的连续时间动态和离散时间噪声测量模型的系统的状态估计的通用框架。我们的方法基于最大似然估计，并利用变分法导出连续时间函数的最优性条件。我们没有对测量值到状态估计的映射形式或噪声项的分布做任何先验假设，使得该框架比假设此映射是线性的和噪声是高斯的卡尔曼滤波/平滑更为通用。优化解释为连续时间样条，其结构和时间依赖性由系统动力学和过程及测量噪声的分布确定。与卡尔曼平滑类似，最优样条在测量时刻具有增加的数据准确性，此外还提供了测量实例之外的连续时间估计。我们通过说明性例子展示了我们的方法的实用性和通用性，这些例子提供了取决于特定系统的线性和非线性数据过滤器。</p>
+</blockquote>
+<hr />
+<h3>Boosting photocatalytic water splitting of polymeric C$_{60}$ by reduced dimensionality from 2D monolayer to 1D chain</h3>
+<p><strong>提升聚合C$_{60}$的光催化水分解效率：从二维单层降维到一维链</strong>：通过降维优化聚合富勒烯的光催化性能</p>
+<p><strong>论文摘要</strong>：</p>
+<blockquote>
+<p>最近的二维富勒烯网络的合成为光伏和光催化提供了新的机会，因为他们的多功能晶体结构可以进一步定制电子、光学和化学功能。为了阐明光催化水分解性能的结构方面，我们比较了从第一性原理计算出的单个聚合富勒烯链和单层富勒烯网络的光催化特性。结果发现，通过从二维降维到一维，可以进一步优化光催化效率。聚合C$_{60}$链的导带边缘提供了比其单层对应物更高的氢还原反应的外部电势，并且在更宽的pH值范围内，一维链的表面活性位点是二维网络的两倍。从热力学的角度看，这些观察结果使一维富勒烯聚合物成为比单层富勒烯网络更有前途的光催化剂候选物。</p>
+</blockquote>
+<hr />
+<h3>EmerNeRF: Emergent Spatial-Temporal Scene Decomposition via Self-Supervision</h3>
+<p><strong>EmerNeRF: 通过自我监督实现空间时间场景的突然分解</strong>：我们提出了EmerNeRF，一种用于学习动态驾驶场景的空间-时间表示的简单而强大的方法。</p>
+<p><strong>论文摘要</strong>：</p>
+<blockquote>
+<p>我们在本文中提出了EmerNeRF，这是一种用于学习动态驾驶场景的空间-时间表示的简单且强大的方法。EmerNeRF基于神经场，同时捕捉场景的几何形状、外观、动态和语义。EmerNeRF的两个核心组件是：首先，它将场景分解为静态和动态字段，这种分解完全来自自我监督，使我们的模型能够从普通的、野生的数据源中学习。其次，EmerNeRF参数化了从动态字段中产生的流场，然后使用这个流场进一步聚合多帧特征，提高动态对象的渲染精度。将这三个字段（静态、动态和流动）结合起来，使EmerNeRF能够自足地表示高度动态的场景，而不依赖于地面真实对象注释或用于动态对象分割或光流估计的预训练模型。我们的方法在传感器模拟方面取得了最先进的性能，在重建静态（+2.93 PSNR）和动态（+3.70 PSNR）场景时明显优于先前的方法。此外，为了增强EmerNeRF的语义泛化，我们将2D视觉基础模型特征提升到4D空间-时间，并解决了现代转换器中的一般位置偏差，显著提高了3D感知性能（例如，占用预测精度的平均相对提高37.50%）。最后，我们构建了一个多样化和具有挑战性的120个序列的数据集，以在极端和高度动态的环境下对神经字段进行基准测试。</p>
+</blockquote>
+<hr /></body></html>
