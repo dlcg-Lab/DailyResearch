@@ -17,10 +17,7 @@ pip install arxiv openai markdown
 
 ## Configuration
 
-After cloning the repository, you will need to set up your environment.
-
-1. Rename `config.py.example` to `config.py`.
-2. Open `config.py` and fill in your OpenAI API key and any other configuration parameters such as arXiv API key if necessary.
+After cloning the repository, you will need to set up your environment. Open `config.py` and fill in your OpenAI API key and any other configuration parameters such as arXiv API key if necessary.
 
 ## Usage
 
